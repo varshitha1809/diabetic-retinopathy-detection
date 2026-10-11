@@ -1,19 +1,19 @@
-# RetinaScope
+# Retinal Image Review
 
-### A clearer view of diabetic retinopathy, one retinal image at a time.
+### A clear, practical workspace for retinal image review.
 
-RetinaScope is a Streamlit app that predicts a diabetic retinopathy grade from a retinal fundus image and visualizes image regions that influenced the prediction with Grad-CAM.
+This academic research dashboard explores diabetic retinopathy grading. Upload a retinal fundus image to review the model's grade estimate, five-class probability profile, and Grad-CAM visualization.
 
 <p align="center">
-  <img src="assets/dashboard.png" alt="RetinaScope dashboard showing the retinal image upload area" width="900">
+  <img src="assets/dashboard.png" alt="Retinal image review dashboard with a five-grade classification reference" width="900">
 </p>
 
-## What it can do
+## Explore the dashboard
 
-- Accept retinal fundus images in JPG, JPEG, or PNG format.
+- Upload a PNG, JPG, or JPEG retinal fundus photograph.
 - Predict one of five grades: **No DR**, **Mild**, **Moderate**, **Severe**, or **Proliferative DR**.
-- Display the model's confidence for its predicted grade.
-- Generate a Grad-CAM visualization to help interpret the prediction.
+- Review model confidence and probabilities across all five classes.
+- Compare the original image with its Grad-CAM overlay and download the visualization.
 
 ## Run it locally
 
@@ -54,6 +54,6 @@ python -m streamlit run app/app.py
 └── README.md
 ```
 
-## A note on medical use
+## Important: research use only
 
-This project is for educational and research use only. Its predictions and Grad-CAM visualizations are not a diagnosis, medical advice, or a substitute for evaluation by a qualified eye-care professional.
+This academic prototype is not clinically validated. Its predictions and Grad-CAM visualizations are not a diagnosis or medical advice, and must not be used to make care or treatment decisions. Please consult a qualified eye-care professional.
