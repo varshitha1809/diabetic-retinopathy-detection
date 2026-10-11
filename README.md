@@ -5,7 +5,7 @@
 This academic research dashboard explores diabetic retinopathy grading. Upload a retinal fundus image to review the model's grade estimate, five-class probability profile, and Grad-CAM visualization.
 
 <p align="center">
-  <img src="assets/dashboard.png" alt="Retinal image review dashboard with a five-grade classification reference" width="900">
+  <img src="assets/dashboard.png" alt="Full-page retinal image review dashboard showing upload, five-grade reference, analysis report, probability profile, and Grad-CAM explanation" width="900">
 </p>
 
 ## Explore the dashboard
